@@ -1,23 +1,72 @@
 aid: bigvalue
+
 name: Bigvalue
-description: 'Bigvalue is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://bigvalue.ai/images/og/og-light.png
+
+description: 'Bigvalue is a South Korean proptech company providing AI‑powered real‑estate valuation services. Its platform offers automated property value assessment for the Korean market, delivering data‑driven pricing intelligence to buyers, sellers, agents, and financial institutions.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bigvalue/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-28 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-28'
+
 modified: '2026-09-28'
+
 tags:
 - Company
-apis: []
+- PropTech
+- AI
+- RealEstate
+- DataAnalytics
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Vendors
+  url: vendors/bigvalue-vendors.yml
+- type: ChangeLog
+  url: changelog/bigvalue-changelog.yml
+- type: LLMsTxt
+  url: llms/bigvalue-llms.txt
+- type: Hosts
+  url: hosts/bigvalue-hosts.yml
+- type: Pricing
+  url: https://bigvalue.ai/pricing
+- type: Newsroom
+  url: https://bigvalue.ai/newsroom
+- type: Documentation
+  url: https://docs.bigvalue.ai/
+- type: DomainSecurity
+  url: security/bigvalue-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/bigvalue
+  url: https://bigvalue.ai
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Documentation at https://docs.bigvalue.ai provides HTML pages but no machine‑readable OpenAPI, AsyncAPI, GraphQL, gRPC or WSDL contracts.
+  evidence:
+    - url: https://docs.bigvalue.ai
+      status: 200
+  checked: '2026-09-28'
+x-enrichment:
+  date: '2026-09-28'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

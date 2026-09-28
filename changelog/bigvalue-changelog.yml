@@ -1,0 +1,35 @@
+generated: '2026-09-28'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.bigvalue.ai/flow/Sub-Docs/release-notes/
+sources:
+- https://docs.bigvalue.ai/flow/Sub-Docs/release-notes/
+entries:
+- breaking: false
+  highlights:
+  - Area 선택 도구 추가 (시도, 시군구, 법정동, 행정동, 건물, 필지)
+  - Area 그리기 도구 고도화
+  - Area 도구(반경)의 편집 방식 수정 (점 하나 단위로 수정 → 반경 단위로 수정)
+  - 편집 가능한 점에 마우스 호버 시 마우스 포인터 변경되도록 수정
+  date: '2025-06-11'
+- breaking: false
+  highlights:
+  - BigValue 서비스 전반 시스템 안정화 작업 수행
+  - Flow 실행 로그 표출 항목 고도화 (Log 상세도 개선)
+  - Protocol - Point 데이터 표현 시 Marker 형태 지원 기능 추가
+  - Protocol - Line 표현 기능 추가
+  date: '2025-04-30'
+- breaking: false
+  highlights:
+  - '[Policy] Credit 기반 요금제 도입'
+  - '[Policy] Visualization Protocol 기본 구조 고도화'
+  - Protocol - Action 기능 추가
+  - 레이어 구조 개선 및 범례 디자인 가독성 향상
+  date: '2025-03-21'
+- breaking: false
+  highlights:
+  - BigValue 서비스 오픈
+  date: '2025-01-23'
+current_version: 0.1.3
+note: Versioning scheme follows a three-part numeric format (major.minor.patch).
+docs: https://docs.bigvalue.ai/flow/Sub-Docs/release-notes/
