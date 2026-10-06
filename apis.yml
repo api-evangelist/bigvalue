@@ -19,7 +19,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-28'
 
-modified: '2026-09-28'
+modified: '2026-10-06'
 
 x-docs-platform: docusaurus
 x-docs-platform-confidence: medium
@@ -44,6 +44,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://bigvalue.ai/feed.xml
+  type: BlogRSS
 - type: Vendors
   url: vendors/bigvalue-vendors.yml
 - type: ChangeLog
