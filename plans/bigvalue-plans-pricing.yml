@@ -1,0 +1,33 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://bigvalue.ai/pricing
+sources:
+- https://bigvalue.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Pricing page lists four products, each with a
+  contact-sales call to action; no numeric prices shown.
+plan_count: 4
+plans:
+- name: Data Product
+  price_text: BigValue에 문의하기
+  period: none
+- name: Data API
+  price_text: BigValue에 문의하기
+  period: none
+- name: Cube
+  price_text: BigValue에 문의하기
+  period: none
+- name: AI Solution
+  price_text: BigValue에 문의하기
+  period: none
