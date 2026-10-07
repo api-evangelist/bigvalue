@@ -44,6 +44,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Plans
+  url: plans/bigvalue-plans-pricing.yml
 - url: https://bigvalue.ai/feed.xml
   type: BlogRSS
 - type: Vendors
